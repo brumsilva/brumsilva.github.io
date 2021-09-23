@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+    body {
+        margin: 0;
+        font-family: 'Poppins';
+        background-color: #f1f0f0;
+    }
+    form {
+        background-color: #77cfca;
+        width: 990px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+    fieldset {
+        border: none;
+        margin-bottom: 20px;
+    }
+    strong {
+       font-size: 25px; 
+    }
+    h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+    span {
+        
+    }
+    #button {
+        margin:20px 10px 0 0;
+        padding:5px;
+        background-color:white;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <h1>Seja um mestre <span>Pokémon!</span></h1>
+
+    <form>
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+            <div>
+                <label for="name"> Nome: </label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome...">
+            </div>
+            <div>
+                <label for="lastname"> Sobrenome:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome...">
+            </div>
+        <div>
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email...">
+        </div>
+        <div>
+            <label> Qual sua data de nascimento?</label>
+            <input type="date" name="date" id="date">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <label for=""><strong>Escolha seu inicial</strong></label>
+        <div>
+            <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Charmander <img src="imagens/charmander.png" style="width:156px;height:156px;">
+            <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Squirtle <img src="imagens/squirtle.png"style="width:156px;height:156px;">
+            <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Bulbassour <img src="imagens/Bulbasaur.png" style="width:156px;height:156px;">
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <label for=""><strong>Escolha sua região</strong></label>
+                <select selected>
+                    <option>Kanto</option>
+                    <option>Johto</option>
+                    <option>Sinoh</option>
+                </select>
+        </div>
+    </fieldset>
+    <fieldset>
+        <label><strong>Quais os sprits que você mais curte?</strong></label>
+        <div>
+            <input type="checkbox" name="sprits" value=""> <img src="imagens/gif1.gif"style="width:100px;height:90px;">
+            <input type="checkbox" name="sprits" value=""> <img src="imagens/gif2.gif" style="width:100px;height:90px;">
+            <input type="checkbox" name="sprits" value=""> <img src="imagens/gif3.gif" style="width:100px;height:90px;">
+            <input type="checkbox" name="sprits"value=""> <img src="imagens/gif4.gif" style="width:100px;height:90px;">
+        </div>
+
+        <div>
+            <input id="button" type="button" value="Vamos lá!">
+        </div>
+    </fieldset>
+    </form>
+
+</body>
+</html>

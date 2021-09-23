@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
         font-family: 'Poppins';
         background-color: #f1f0f0;
     }
+
     form {
         background-color: #77cfca;
         width: 990px;
@@ -22,27 +24,31 @@
         border-radius: 10px;
         border: none;
     }
+
     fieldset {
         border: none;
         margin-bottom: 20px;
     }
+
     strong {
-       font-size: 25px; 
+        font-size: 25px;
     }
+
     h1 {
         text-align: center;
         font-size: 36px;
     }
-    span {
-        
-    }
+
+    span {}
+
     #button {
-        margin:20px 10px 0 0;
-        padding:5px;
-        background-color:white;
+        margin: 20px 10px 0 0;
+        padding: 5px;
+        background-color: white;
         border-radius: 10px;
     }
 </style>
+
 <body>
     <h1>Seja um mestre <span>Pokémon!</span></h1>
 
@@ -57,48 +63,58 @@
                 <label for="lastname"> Sobrenome:</label>
                 <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome...">
             </div>
-        <div>
-            <label for="email"> Email: </label>
-            <input type="email" name="email" id="email" placeholder="Digite seu email...">
-        </div>
-        <div>
-            <label> Qual sua data de nascimento?</label>
-            <input type="date" name="date" id="date">
-        </div>
-    </fieldset>
+            <div>
+                <label for="email"> Email: </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email...">
+            </div>
+            <div>
+                <label> Qual sua data de nascimento?</label>
+                <input type="date" name="date" id="date">
+            </div>
+        </fieldset>
 
-    <fieldset>
-        <label for=""><strong>Escolha seu inicial</strong></label>
-        <div>
-            <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Charmander <img src="imagens/charmander.png" style="width:156px;height:156px;">
-            <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Squirtle <img src="imagens/squirtle.png"style="width:156px;height:156px;">
-            <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Bulbassour <img src="imagens/Bulbasaur.png" style="width:156px;height:156px;">
-        </div>
-    </fieldset>
-    <fieldset>
-        <div>
-            <label for=""><strong>Escolha sua região</strong></label>
+        <fieldset>
+            <label for=""><strong>Escolha seu inicial</strong></label>
+            <div>
+                <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Charmander <img
+                    src="imagens/charmander.png" style="width:156px;height:156px;">
+                <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Squirtle <img src="imagens/squirtle.png"
+                    style="width:156px;height:156px;">
+                <input type="radio" id="pkmn" name="pkmn" value="Charmander"> Bulbassour <img
+                    src="imagens/Bulbasaur.png" style="width:156px;height:156px;">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for=""><strong>Escolha sua região</strong></label>
                 <select selected>
                     <option>Kanto</option>
                     <option>Johto</option>
                     <option>Sinoh</option>
                 </select>
-        </div>
-    </fieldset>
-    <fieldset>
-        <label><strong>Quais os sprits que você mais curte?</strong></label>
-        <div>
-            <input type="checkbox" name="sprits" value=""> <img src="imagens/gif1.gif"style="width:100px;height:90px;">
-            <input type="checkbox" name="sprits" value=""> <img src="imagens/gif2.gif" style="width:100px;height:90px;">
-            <input type="checkbox" name="sprits" value=""> <img src="imagens/gif3.gif" style="width:100px;height:90px;">
-            <input type="checkbox" name="sprits"value=""> <img src="imagens/gif4.gif" style="width:100px;height:90px;">
-        </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label><strong>Quais os sprits que você mais curte?</strong></label>
+            <div>
+                <input type="checkbox" name="sprits" value=""> <img src="imagens/gif1.gif"
+                    style="width:100px;height:90px;">
+                <input type="checkbox" name="sprits" value=""> <img src="imagens/gif2.gif"
+                    style="width:100px;height:90px;">
+                <input type="checkbox" name="sprits" value=""> <img src="imagens/gif3.gif"
+                    style="width:100px;height:90px;">
+                <input type="checkbox" name="sprits" value=""> <img src="imagens/gif4.gif"
+                    style="width:100px;height:90px;">
+            </div>
 
-        <div>
-            <input id="button" type="button" value="Vamos lá!">
-        </div>
-    </fieldset>
+            <div>
+                <input id="button" type="button" value="Vamos lá!">
+            </div>
+        </fieldset>
     </form>
-
+    <footer>
+        <div>Desenvolvido por Bruno Silva. 🤪</div>
+    </footer>
 </body>
+
 </html>
